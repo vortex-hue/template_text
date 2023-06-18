@@ -1,0 +1,37 @@
+User-agent: *
+Disallow: /cart.php
+Disallow: /wp-admin
+Disallow: /*/blog/wp-admin
+Disallow: /*/feed/
+Disallow: /overview.php
+Disallow: /blog/*?
+Disallow: /ajax/
+Disallow: /*/ajax/
+Disallow: /*/search/
+Disallow: /webapi/
+Disallow: /api/
+Disallow: /utils/
+
+#Yahoo
+User-Agent: Slurp
+Disallow: /*?
+
+#Bing (MSN)
+User-Agent: msnbot
+Disallow: /*?
+
+#Bing (BingPreview)
+User-Agent: BingPreview
+Disallow: /*?
+
+#Baiduspider
+User-agent: Baiduspider
+Disallow: /*?
+
+#Yandex
+User-agent: Yandex
+Disallow: /*?
+
+Sitemap: https://www.templatemonster.com/sitemap.xml
+Host: https://www.templatemonster.com
+
